@@ -544,6 +544,8 @@ sub _sphinx_search_context_init {
 
     require MT::App;
     my $app = MT::App->instance;
+    # Short circuit. This should not be invoked for a tag search.
+    return if ($app->param('tag'));
     if ( $app->param('searchall') ) {
 
         # not cute, but it'll work

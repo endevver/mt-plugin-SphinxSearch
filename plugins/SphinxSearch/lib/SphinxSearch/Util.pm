@@ -168,7 +168,7 @@ sub init_apps {
         require SphinxSearch::Search;
         SphinxSearch::Search::init_app( $cb, $app );
     }
-
+    return 1;
 }
 
 sub pre_load_template {
