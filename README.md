@@ -7,7 +7,7 @@ Type.
 
 ## What is Sphinx?
 
-Sphinx is a full-text search engine, distributed under GPL version 2.
+Sphinx is a full-text search engine, distributed under the MIT license.
 Generally, it's a standalone search engine, meant to provide fast,
 size-efficient and relevant full-text search functions to other applications.
 
